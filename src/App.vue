@@ -18,9 +18,12 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+.v-application {
+    font-family: "Montserrat" !important;
+}
+
 body {
-    color: var(--v-dark-base);
-    font-family: "Montserrat", sans-serif;
+    color: var(--v-base-base);
     height: 100%;
     width: 100%;
 }

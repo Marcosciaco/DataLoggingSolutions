@@ -12,7 +12,9 @@ export default new Vuetify({
 			light: {
 				base: '#F3F8FF',
 				primary: '#5695F3',
-				secondary: '#AECFFF',
+				secondary: '#7aafff',
+				tertiary: 'AECFFF',
+				text_primary: '#FFFFFF',
 				white: '#FBFDFF',
 				black: '#2B363F',
 				red: '#FF4438',
@@ -20,7 +22,9 @@ export default new Vuetify({
 			dark: {
 				base: '#384956',
 				primary: '#5695F3',
-				secondary: '#AECFFF',
+				secondary: '#7aafff',
+				tertiary: '#AECFFF',
+				text_primary: '#FFFFFF',
 				white: '#FBFDFF',
 				black: '#2B363F',
 				red: '#FF4438',
