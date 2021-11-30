@@ -2,10 +2,10 @@
     <div class="entry" :class="bg_color" v-on:click="click">
         <div class="entry-position">#{{ position }}</div>
         <div class="entry-description">
-            <span class="entry-title">{{ title }}</span>
+            <span class="entry-title">{{ $t(title) }}</span>
             <div>
                 <v-icon class="entry-icon" :color="icon_color">{{ icon }}</v-icon>
-                <span class="entry-subtitle">{{ subtitle }}</span>
+                <span class="entry-subtitle">{{ $t(subtitle) }}</span>
             </div>
         </div>
     </div>
